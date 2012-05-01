@@ -1099,7 +1099,7 @@ src/mongo/db/queryutil-inl.h
 src/mongo/db/queryutil.cpp
 ----
 * 10370 [code](http://github.com/mongodb/mongo/blob/master/src/mongo/db/queryutil.cpp#L347) $all requires array
-* 12580 [code](http://github.com/mongodb/mongo/blob/master/src/mongo/db/queryutil.cpp#L176) invalid query
+* 12580 [code](http://github.com/mongodb/mongo/blob/master/src/mongo/db/queryutil.cpp#L176) $in requires array
 * 13033 [code](http://github.com/mongodb/mongo/blob/master/src/mongo/db/queryutil.cpp#L719) can't have 2 special fields
 * 13034 [code](http://github.com/mongodb/mongo/blob/master/src/mongo/db/queryutil.cpp#L911) invalid use of $not
 * 13041 [code](http://github.com/mongodb/mongo/blob/master/src/mongo/db/queryutil.cpp#L920) invalid use of $not

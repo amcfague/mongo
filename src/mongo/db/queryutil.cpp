@@ -172,7 +172,7 @@ namespace mongo {
             bool exactMatchesOnly = true;
             set<BSONElement,element_lt> vals;
             vector<FieldRange> regexes;
-            uassert( 12580 , "invalid query" , e.isABSONObj() );
+            uassert( 12580 , "$in requires array" , e.isABSONObj() );
             BSONObjIterator i( e.embeddedObject() );
             while( i.more() ) {
                 BSONElement ie = i.next();
